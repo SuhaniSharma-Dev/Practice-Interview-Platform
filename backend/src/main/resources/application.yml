@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: interview-platform
+
+  # MongoDB Configuration
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/interview_platform
+      auto-index-creation: true
+
+    # Redis Configuration
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 6000ms
+
+# JWT Configuration
+jwt:
+  secret: 4a6f686e446f6545786368616e676553656372657456616c7565466f725468655072616374696365496e7465727669657750
+  expiration: 86400000  # 24 hours in milliseconds
+
+# CORS
+cors:
+  allowed-origins: http://localhost:5173,http://localhost:3000
+
+# Logging
+logging:
+  level:
+    com.interviewplatform: DEBUG
+    org.springframework.security: DEBUG
