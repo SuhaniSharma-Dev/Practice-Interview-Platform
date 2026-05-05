@@ -1,1 +1,178 @@
-none
+Got it — I’ll create a clean **README.md** for your **Practice Interview Platform (Spring Boot + MongoDB)** project. You can directly copy-paste this into your repo.
+
+---
+
+## 📄 README.md
+
+```markdown
+# 🎯 Practice Interview Platform
+
+A full-stack web application designed to help users practice technical interviews.  
+Built using **Spring Boot (Backend)** and **MongoDB (Database)**.
+
+---
+
+## 🚀 Features
+
+- 👤 User Registration & Login (Authentication)
+- 🔐 Secure Password Handling with Spring Security
+- 🧠 Practice Interview Questions
+- 📊 Dashboard after login
+- 📝 Forms for:
+  - Demarcation Request
+  - Mutual Partition Request
+  - Family Partition Request
+- 💾 MongoDB Database Integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data MongoDB
+- Lombok
+
+### Database
+- MongoDB (Local)
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- React (optional if used)
+
+---
+
+## 📂 Project Structure
+
+```
+
+Practice-Interview-Platform/
+│
+├── src/main/java/com/example/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── model/
+│   └── config/
+│
+├── src/main/resources/
+│   ├── application.properties
+│
+└── pom.xml
+
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/practice-interview-platform.git
+cd practice-interview-platform
+````
+
+---
+
+### 2️⃣ Configure MongoDB
+
+Make sure MongoDB is running locally.
+
+```properties
+spring.data.mongodb.uri=mongodb://localhost:27017/practiceDB
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+If using Maven:
+
+```bash
+mvn clean install
+```
+
+---
+
+### 4️⃣ Run the Application
+
+```bash
+mvn spring-boot:run
+```
+
+Server will start at:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 🔐 API Endpoints
+
+### Auth APIs
+
+* `POST /api/auth/register`
+* `POST /api/auth/login`
+
+### User APIs
+
+* `GET /api/users`
+
+### Request APIs
+
+* `POST /api/demarcation`
+* `POST /api/mutual-partition`
+* `POST /api/family-partition`
+
+---
+
+## 📸 Screenshots
+
+*Add your UI screenshots here*
+
+---
+
+## 👨‍💻 Contributors
+
+* Shubh Kesharwani
+* Team Members (Add names here)
+
+---
+
+## 📌 Future Improvements
+
+* JWT Authentication
+* Admin Panel
+* AI-based Interview Questions
+* Resume Analysis Feature
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+## 💡 Note
+
+Make sure MongoDB is running before starting the backend.
+
+```
+
+---
+
+If you want, I can also:
+- ✅ Customize this README for your **exact code structure**
+- ✅ Add **screenshots section properly**
+- ✅ Add **badges (GitHub, build status, etc.)**
+- ✅ Create **frontend README separately**
+
+Just tell me 👍
+```
